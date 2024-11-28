@@ -17,7 +17,7 @@ const dsnParam = {
     smoothTouch: false,
     mouseMultiplier: 1
   },
-  name: "BLACKDSN"
+  name: "BIPF"
 };
 
 (function ($) {
@@ -1584,3 +1584,13 @@ function sidebarOptions() {
       subtree: true,
   });
 })();
+
+
+// <!-- responsive menu scroll -->
+window.onscroll = () => {
+  menu.classList.remove('bx-x')
+  navlist.classList.remove('open')
+}
+
+
+

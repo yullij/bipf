@@ -3716,6 +3716,23 @@ body.error404 .sm-title-block span {
   }
 }
 
+/* ============ */
+
+/* scroll top */
+.top{
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 9999;
+}
+.top i{
+  font-size: 80px;
+}
+
+/* ============= */
+
+
+
 div.effect-popup, .has-popup div.img-box-parallax, .has-popup div.pop-up {
   cursor: pointer;
 }
