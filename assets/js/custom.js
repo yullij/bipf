@@ -1594,3 +1594,12 @@ window.onscroll = () => {
 
 
 
+// <!-- 포트폴리오 리뷰 탭 -->
+$('.con-tab-menu li a').click(function(){
+        $('.con-tab').removeClass('active');
+        $('.con-tab[data-id="'+$(this).attr('data-id')+'"]').addClass('active');
+        $('.con-tab-menu li a').removeClass('active');
+        $(this).parent().find('a').addClass('active');
+});
+
+
